@@ -1,0 +1,35 @@
+version: '3.4'
+
+services:
+  cashbackbeerapi:
+    image: cashbackbeerapi
+    build: 
+      context: .
+      dockerfile: CashBackBeer.API/Dockerfile
+    environment:
+      - aspnetcore_urls=http://*:5389       
+    ports:
+      - "7582:80"
+      - "5389:443"
+    depends_on:
+      - sqldata
+
+  sqldata:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      - SA_PASSWORD=Numsey#2022
+      - ACCEPT_EULA=Y
+    volumes:
+      - C:\Users\BSI99587\Dados\CashBackVolume:/var/opt/mssql/data
+    ports:
+      - "1450:1433"
+
+  rabbitmq:
+    container_name: cqrs-rabbitmq
+    image: rabbitmq:3-management    
+    ports:
+       - 15672:15672
+       - 5672:5672
+    environment:
+      RABBITMQ_DEFAULT_USER: "cqrsguest"
+      RABBITMQ_DEFAULT_PASS: "cqrsguest"     

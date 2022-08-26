@@ -1,0 +1,16 @@
+services:
+  cashbackbeer.api:
+    build:
+      context: C:\Users\BSI99587\source\repos\CashBackBeer
+      dockerfile: CashBackBeer.API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: cashbackbeerapi
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\BSI99587\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\BSI99587\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

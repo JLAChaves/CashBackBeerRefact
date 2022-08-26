@@ -1,0 +1,12 @@
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Domain\bin\Debug\net6.0\CashBackBeer.Domain.deps.json
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Domain\bin\Debug\net6.0\CashBackBeer.Domain.dll
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Domain\bin\Debug\net6.0\CashBackBeer.Domain.pdb
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Domain\obj\Debug\net6.0\CashBackBeer.Domain.csproj.AssemblyReference.cache
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Domain\obj\Debug\net6.0\CashBackBeer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Domain\obj\Debug\net6.0\CashBackBeer.Domain.AssemblyInfoInputs.cache
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Domain\obj\Debug\net6.0\CashBackBeer.Domain.AssemblyInfo.cs
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Domain\obj\Debug\net6.0\CashBackBeer.Domain.csproj.CoreCompileInputs.cache
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Domain\obj\Debug\net6.0\CashBackBeer.Domain.dll
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Domain\obj\Debug\net6.0\refint\CashBackBeer.Domain.dll
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Domain\obj\Debug\net6.0\CashBackBeer.Domain.pdb
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Domain\obj\Debug\net6.0\ref\CashBackBeer.Domain.dll

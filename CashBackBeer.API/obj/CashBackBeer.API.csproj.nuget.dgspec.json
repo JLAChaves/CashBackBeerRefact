@@ -1,0 +1,518 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.API\\CashBackBeer.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.API\\CashBackBeer.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.API\\CashBackBeer.API.csproj",
+        "projectName": "CashBackBeer.API",
+        "projectPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.API\\CashBackBeer.API.csproj",
+        "packagesPath": "C:\\Users\\BSI99587\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BSI99587\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://devops.bs2.com/BS2Tech/_packaging/Core_2.0/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Application\\CashBackBeer.Application.csproj": {
+                "projectPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Application\\CashBackBeer.Application.csproj"
+              },
+              "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Infra.IoC\\CashBackBeer.Infra.IoC.csproj": {
+                "projectPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Infra.IoC\\CashBackBeer.Infra.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Bs2.Core2.Utilities.Messaging": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "Bs2.Core2.Utilities.Messaging.RabbitMQ": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Application\\CashBackBeer.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Application\\CashBackBeer.Application.csproj",
+        "projectName": "CashBackBeer.Application",
+        "projectPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Application\\CashBackBeer.Application.csproj",
+        "packagesPath": "C:\\Users\\BSI99587\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BSI99587\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://devops.bs2.com/BS2Tech/_packaging/Core_2.0/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Domain\\CashBackBeer.Domain.csproj": {
+                "projectPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Domain\\CashBackBeer.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Domain\\CashBackBeer.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Domain\\CashBackBeer.Domain.csproj",
+        "projectName": "CashBackBeer.Domain",
+        "projectPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Domain\\CashBackBeer.Domain.csproj",
+        "packagesPath": "C:\\Users\\BSI99587\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BSI99587\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://devops.bs2.com/BS2Tech/_packaging/Core_2.0/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Bs2.Core2.Utilities": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Infra.Data\\CashBackBeer.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Infra.Data\\CashBackBeer.Infra.Data.csproj",
+        "projectName": "CashBackBeer.Infra.Data",
+        "projectPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Infra.Data\\CashBackBeer.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\BSI99587\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BSI99587\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://devops.bs2.com/BS2Tech/_packaging/Core_2.0/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Domain\\CashBackBeer.Domain.csproj": {
+                "projectPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Domain\\CashBackBeer.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Infra.IoC\\CashBackBeer.Infra.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Infra.IoC\\CashBackBeer.Infra.IoC.csproj",
+        "projectName": "CashBackBeer.Infra.IoC",
+        "projectPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Infra.IoC\\CashBackBeer.Infra.IoC.csproj",
+        "packagesPath": "C:\\Users\\BSI99587\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Infra.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BSI99587\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://devops.bs2.com/BS2Tech/_packaging/Core_2.0/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Application\\CashBackBeer.Application.csproj": {
+                "projectPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Application\\CashBackBeer.Application.csproj"
+              },
+              "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Infra.Data\\CashBackBeer.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Infra.Data\\CashBackBeer.Infra.Data.csproj"
+              },
+              "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Workers\\CashBackBeer.Workers.csproj": {
+                "projectPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Workers\\CashBackBeer.Workers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Bs2.Core2.Utilities.Messaging.RabbitMQ": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Workers\\CashBackBeer.Workers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Workers\\CashBackBeer.Workers.csproj",
+        "projectName": "CashBackBeer.Workers",
+        "projectPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Workers\\CashBackBeer.Workers.csproj",
+        "packagesPath": "C:\\Users\\BSI99587\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Workers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BSI99587\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://devops.bs2.com/BS2Tech/_packaging/Core_2.0/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Domain\\CashBackBeer.Domain.csproj": {
+                "projectPath": "C:\\Users\\BSI99587\\source\\repos\\CashBackBeer\\CashBackBeer.Domain\\CashBackBeer.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Bs2.Core2.Utilities": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Bs2.Core2.Utilities.Messaging.RabbitMQ": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

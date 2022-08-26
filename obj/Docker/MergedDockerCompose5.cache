@@ -1,0 +1,31 @@
+services:
+  cashbackbeerapi:
+    build:
+      context: C:\Users\BSI99587\source\repos\CashBackBeer
+      dockerfile: CashBackBeer.API/Dockerfile
+    depends_on:
+      sqldata:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: cashbackbeerapi
+    ports:
+    - published: 8081
+      target: 80
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\BSI99587\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\BSI99587\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  sqldata:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Numsey#2022
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    ports:
+    - published: 1450
+      target: 1433
+    volumes:
+    - C:\Users\BSI99587\Dados\CashBackVolume:/var/opt/mssql/data:rw
+version: '3.4'

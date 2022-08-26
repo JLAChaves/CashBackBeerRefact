@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashBackBeer.API", "CashBackBeer.API\CashBackBeer.API.csproj", "{D812676A-587B-4E35-BF8F-CE6E77901267}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AD97747B-B42E-41CC-8B62-2729C621F206} = {AD97747B-B42E-41CC-8B62-2729C621F206}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashBackBeer.Domain", "CashBackBeer.Domain\CashBackBeer.Domain.csproj", "{771E6F01-E3D6-4421-AB2A-B321E4DAB2D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashBackBeer.Infra.Data", "CashBackBeer.Infra.Data\CashBackBeer.Infra.Data.csproj", "{AD97747B-B42E-41CC-8B62-2729C621F206}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashBackBeer.Infra.IoC", "CashBackBeer.Infra.IoC\CashBackBeer.Infra.IoC.csproj", "{713201F3-5BFF-40DD-B500-7D7BE6CF3729}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashBackBeer.Application", "CashBackBeer.Application\CashBackBeer.Application.csproj", "{CDE2E882-D481-4607-A762-F187809D0505}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{92747EAF-7A7D-4D41-9630-DB967C5EF939}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{04C88262-5DB1-4F72-BEC8-0DE79F5D34D6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashBackBeer.Tests", "..\CashBackBeer.Tests\CashBackBeer.Tests.csproj", "{4C719C9A-46C3-4D5B-8063-A483FCEAAF82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashBackBeer.Workers", "CashBackBeer.Workers\CashBackBeer.Workers.csproj", "{89940AB7-CA9F-4389-8339-E96B92E17D7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashBackBeer.WorkerD", "CashBackBeer.WorkerD\CashBackBeer.WorkerD.csproj", "{0338128D-7814-44D3-A592-1F22AA2DB5B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D812676A-587B-4E35-BF8F-CE6E77901267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D812676A-587B-4E35-BF8F-CE6E77901267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D812676A-587B-4E35-BF8F-CE6E77901267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D812676A-587B-4E35-BF8F-CE6E77901267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771E6F01-E3D6-4421-AB2A-B321E4DAB2D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771E6F01-E3D6-4421-AB2A-B321E4DAB2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771E6F01-E3D6-4421-AB2A-B321E4DAB2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771E6F01-E3D6-4421-AB2A-B321E4DAB2D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD97747B-B42E-41CC-8B62-2729C621F206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD97747B-B42E-41CC-8B62-2729C621F206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD97747B-B42E-41CC-8B62-2729C621F206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD97747B-B42E-41CC-8B62-2729C621F206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713201F3-5BFF-40DD-B500-7D7BE6CF3729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713201F3-5BFF-40DD-B500-7D7BE6CF3729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713201F3-5BFF-40DD-B500-7D7BE6CF3729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713201F3-5BFF-40DD-B500-7D7BE6CF3729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE2E882-D481-4607-A762-F187809D0505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE2E882-D481-4607-A762-F187809D0505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE2E882-D481-4607-A762-F187809D0505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE2E882-D481-4607-A762-F187809D0505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92747EAF-7A7D-4D41-9630-DB967C5EF939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92747EAF-7A7D-4D41-9630-DB967C5EF939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92747EAF-7A7D-4D41-9630-DB967C5EF939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92747EAF-7A7D-4D41-9630-DB967C5EF939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C719C9A-46C3-4D5B-8063-A483FCEAAF82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C719C9A-46C3-4D5B-8063-A483FCEAAF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C719C9A-46C3-4D5B-8063-A483FCEAAF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C719C9A-46C3-4D5B-8063-A483FCEAAF82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89940AB7-CA9F-4389-8339-E96B92E17D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89940AB7-CA9F-4389-8339-E96B92E17D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89940AB7-CA9F-4389-8339-E96B92E17D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89940AB7-CA9F-4389-8339-E96B92E17D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0338128D-7814-44D3-A592-1F22AA2DB5B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0338128D-7814-44D3-A592-1F22AA2DB5B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0338128D-7814-44D3-A592-1F22AA2DB5B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0338128D-7814-44D3-A592-1F22AA2DB5B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D08AF6D3-0A6E-4EEC-B40E-E48434D41872}
+	EndGlobalSection
+EndGlobal

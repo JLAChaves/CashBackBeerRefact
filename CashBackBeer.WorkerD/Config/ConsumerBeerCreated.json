@@ -1,0 +1,14 @@
+{
+  "CASHBACKBEER_WORKER_NAME": "CONSUMERBEERCREATED",
+  "CASHBACKBEER_SQLCONNSTR": "Data Source=localhost,1450;Initial Catalog=CashBackDB;Persist Security Info=True;User ID=SA;Password=Numsey#2022;MultipleActiveResultSets=True",
+  "BS2CORE_SQLPREFIX": "core2ccov2.",
+
+  "CASHBACKBEER_RABBITMQ_BEERCREATED_QUEUE": "q.core2.beercreated",
+  //TODO Criar Invalid
+  //"BS2CORE_RABBITMQ_IMPORTADOR_CONTAREVISADA_QUEUE_INVALID": "q.core1.cco.deprecated.contarevisada.invalid",
+
+  "CASHBACKBEER_RABBITMQ_URL_BASE": "localhost",
+  "CASHBACKBEER_RABBITMQ_USERNAME": "guest",
+  "CASHBACKBEER_RABBITMQ_PASSWORD": "guest",
+  "CASHBACKBEER_RABBITMQ_VHOST": "vh.core2.beer"
+}

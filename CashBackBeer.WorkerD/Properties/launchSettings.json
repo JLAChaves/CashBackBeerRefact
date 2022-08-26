@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "CashBackBeer.WorkerD": {
+      "commandName": "Project",
+      "commandLineArgs": "/CONFIG_FILE=./Config/ConsumerBeerCreated.json",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

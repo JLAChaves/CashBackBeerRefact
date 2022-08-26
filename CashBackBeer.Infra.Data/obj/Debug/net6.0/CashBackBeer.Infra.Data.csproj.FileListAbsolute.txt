@@ -1,0 +1,17 @@
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Infra.Data\bin\Debug\net6.0\CashBackBeer.Infra.Data.deps.json
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Infra.Data\bin\Debug\net6.0\CashBackBeer.Infra.Data.runtimeconfig.json
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Infra.Data\bin\Debug\net6.0\CashBackBeer.Infra.Data.dll
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Infra.Data\bin\Debug\net6.0\CashBackBeer.Infra.Data.pdb
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Infra.Data\bin\Debug\net6.0\CashBackBeer.Domain.dll
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Infra.Data\bin\Debug\net6.0\CashBackBeer.Domain.pdb
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Infra.Data\obj\Debug\net6.0\CashBackBeer.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Infra.Data\obj\Debug\net6.0\CashBackBeer.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Infra.Data\obj\Debug\net6.0\CashBackBeer.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Infra.Data\obj\Debug\net6.0\CashBackBeer.Infra.Data.AssemblyInfo.cs
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Infra.Data\obj\Debug\net6.0\CashBackBeer.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Infra.Data\obj\Debug\net6.0\CashBackBeer.Infra.Data.csproj.CopyComplete
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Infra.Data\obj\Debug\net6.0\CashBackBeer.Infra.Data.dll
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Infra.Data\obj\Debug\net6.0\refint\CashBackBeer.Infra.Data.dll
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Infra.Data\obj\Debug\net6.0\CashBackBeer.Infra.Data.pdb
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Infra.Data\obj\Debug\net6.0\CashBackBeer.Infra.Data.genruntimeconfig.cache
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Infra.Data\obj\Debug\net6.0\ref\CashBackBeer.Infra.Data.dll

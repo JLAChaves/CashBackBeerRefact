@@ -1,0 +1,15 @@
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Application\bin\Release\net6.0\CashBackBeer.Application.deps.json
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Application\bin\Release\net6.0\CashBackBeer.Application.dll
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Application\bin\Release\net6.0\CashBackBeer.Application.pdb
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Application\bin\Release\net6.0\CashBackBeer.Domain.dll
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Application\bin\Release\net6.0\CashBackBeer.Domain.pdb
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Application\obj\Release\net6.0\CashBackBeer.Application.csproj.AssemblyReference.cache
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Application\obj\Release\net6.0\CashBackBeer.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Application\obj\Release\net6.0\CashBackBeer.Application.AssemblyInfoInputs.cache
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Application\obj\Release\net6.0\CashBackBeer.Application.AssemblyInfo.cs
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Application\obj\Release\net6.0\CashBackBeer.Application.csproj.CoreCompileInputs.cache
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Application\obj\Release\net6.0\CashBackBeer.Application.csproj.CopyComplete
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Application\obj\Release\net6.0\CashBackBeer.Application.dll
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Application\obj\Release\net6.0\refint\CashBackBeer.Application.dll
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Application\obj\Release\net6.0\CashBackBeer.Application.pdb
+C:\Users\BSI99587\source\repos\CashBackBeer\CashBackBeer.Application\obj\Release\net6.0\ref\CashBackBeer.Application.dll

@@ -1,0 +1,5 @@
+C:\Users\BSI99587\source\repos\CashBackBeer\dist\CashBackBeer.Application.dll
+C:\Users\BSI99587\source\repos\CashBackBeer\dist\CashBackBeer.Application.deps.json
+C:\Users\BSI99587\source\repos\CashBackBeer\dist\CashBackBeer.Application.pdb
+C:\Users\BSI99587\source\repos\CashBackBeer\dist\CashBackBeer.Domain.dll
+C:\Users\BSI99587\source\repos\CashBackBeer\dist\CashBackBeer.Domain.pdb
