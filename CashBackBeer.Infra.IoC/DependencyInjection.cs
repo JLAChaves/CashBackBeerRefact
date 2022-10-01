@@ -25,8 +25,8 @@ namespace CashbackBeer.Infra.IoC
 
             services.AddScoped<IFinalSaleRepository, FinalSaleRepository>();
             services.AddScoped<IFinalSaleDomainService, FinalSaleDomainService>();
-
-            services.AddScoped<IRequestHandler<CreateBeerRequestDTO, CreateBeerResponseDTO>, CreateBeerHandler>();
+            services.AddScoped<ICreateBeer, CreateBeer>();
+            //services.AddScoped<IMediator>(x => new Mediator(type => x.GetRequiredService(type)));
 
             var myhandlers = AppDomain.CurrentDomain.Load("CashBackBeer.Application");
             services.AddMediatR(myhandlers);
